@@ -33,3 +33,16 @@ To get started with composing and running tests using Docker Compose, follow the
     This command will stop and remove the containers defined in your `docker-compose.yml` file.
 
 That's it! You have now successfully composed and run tests using Docker Compose. Happy testing!
+
+
+
+Errors were encountered while processing:
+ nvidia-dkms-515
+ nvidia-driver-515
+needrestart is being skipped since dpkg has failed
+
+
+0 0
+1 0
+0 1
+1 1 # k xay ra (concurreny always equals to 2)

@@ -7,7 +7,7 @@ start_task_url = 'http://127.0.0.1:8000/start-task/'
 task_status_url = 'http://127.0.0.1:8000/task-status/'
 
 # Danh sách các task_id
-task_ids = [1, 2, 3, 4, 5]
+task_ids = [1, 2]
 
 # Hàm thực hiện request POST với task_id được cung cấp
 def start_task(task_id):

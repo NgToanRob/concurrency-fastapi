@@ -16,7 +16,7 @@ services:
 
   worker:
     build: .
-    command: celery -A tasks worker --loglevel=info --concurrency=2 # Change worker concurrency
+    command: celery -A tasks worker --loglevel=info --concurrency=5 # Change worker concurrency
     depends_on:
       - redis
       - rabbitmq

@@ -6,6 +6,8 @@ app = FastAPI()
 
 class TaskRequest(BaseModel):
     task_id: str
+    # src_img = 
+    # ref_img = 
 
 @app.get("/")
 async def root():
